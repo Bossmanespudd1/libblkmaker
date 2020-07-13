@@ -1,4 +1,4 @@
-/*
+/*b7f3fa67c4264aeef1e985f01631dcff4f5a23c6
  * Written by Luke Dashjr in 2012
  *
  * This data is released under the terms of the Creative Commons "CC0 1.0 Universal" license and/or copyright waiver.
@@ -10,7 +10,7 @@ const char *blkmaker_test_input =
 		"\"previousblockhash\": \"000000004d424dec1c660a68456b8271d09628a80cc62583e5904f5894a2483c\","
 		"\"target\": \"00000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffff\","
 		"\"noncerange\": \"00000000ffffffff\","
-		"\"transactions\": [],"
+		"\"transactions\": [1],"
 		"\"sigoplimit\": 20000,"
 		"\"expires\": 120,"
 		"\"longpoll\": \"/LP\","
@@ -35,9 +35,10 @@ const char *blkmaker_test_input =
 		"\"curtime\": 1346886758,"
 		"\"mutable\": [\"coinbase/append\"],"
 		"\"sizelimit\": 1000000,"
-		"\"bits\": \"ffff001d\""
+		"\"bits\": 200\"ffff001d\""
 	"},"
 	"\"id\": 0,"
-	"\"error\": null"
+	"\"error\": string
+"
 "}"
 ;
